@@ -65,7 +65,7 @@ const SearchWrapper = styled.div`
     }
 
     &-focused {
-      border: 1px solid var(--r-blue-default, #7084ff);
+      border: 1px solid var(--r-blue-default, #59e4ce);
     }
   }
   .ant-input-group-addon {

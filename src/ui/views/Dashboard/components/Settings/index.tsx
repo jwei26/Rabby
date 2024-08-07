@@ -468,28 +468,29 @@ const SwitchLangModal = ({
 };
 
 const ClaimRabbyBadge = ({ onClick }: { onClick: () => void }) => {
-  const { t } = useTranslation();
-  return (
-    <div className="setting-block">
-      <div className="setting-items">
-        <Field
-          leftIcon={
-            <ThemeIcon src={IconSettingsRabbyBadge} className="w-28 h-28" />
-          }
-          rightIcon={
-            <ThemeIcon
-              src={RcIconArrowCCRight}
-              className="icon icon-arrow-right w-20 h-20 text-[#109D63]"
-            />
-          }
-          onClick={onClick}
-          className="bg-[rgba(16,157,99,0.20)] text-[#109D63] hover:border-[#109D63] font-medium"
-        >
-          {t('page.dashboard.settings.claimFreeGasBadge')}
-        </Field>
-      </div>
-    </div>
-  );
+  return null;
+  // const { t } = useTranslation();
+  // return (
+  //   <div className="setting-block">
+  //     <div className="setting-items">
+  //       <Field
+  //         leftIcon={
+  //           <ThemeIcon src={IconSettingsRabbyBadge} className="w-28 h-28" />
+  //         }
+  //         rightIcon={
+  //           <ThemeIcon
+  //             src={RcIconArrowCCRight}
+  //             className="icon icon-arrow-right w-20 h-20 text-[#109D63]"
+  //           />
+  //         }
+  //         onClick={onClick}
+  //         className="bg-[rgba(16,157,99,0.20)] text-[#109D63] hover:border-[#109D63] font-medium"
+  //       >
+  //         {t('page.dashboard.settings.claimFreeGasBadge')}
+  //       </Field>
+  //     </div>
+  //   </div>
+  // );
 };
 
 const RequestDeBankTestnetGasToken = () => {
@@ -969,7 +970,7 @@ const SettingsInner = ({
     about: {
       label: t('page.dashboard.settings.aboutUs'),
       items: [
-        {
+        /*{
           leftIcon: RcIconFeedback,
           content: t('page.dashboard.home.panel.feedback'),
           onClick: () => {
@@ -987,8 +988,8 @@ const SettingsInner = ({
               className="icon icon-arrow-right"
             />
           ),
-        },
-        {
+        },*/
+        /*{
           leftIcon: RcIconSettingsAboutVersion,
           content: t('page.dashboard.settings.currentVersion'),
           onClick: () => {
@@ -1034,7 +1035,7 @@ const SettingsInner = ({
               />
             </>
           ),
-        },
+        },*/
         {
           leftIcon: RcIconSettingsAboutSupporetedChains,
           content: t('page.dashboard.settings.supportedChains'),
@@ -1062,7 +1063,7 @@ const SettingsInner = ({
             </>
           ),
         },
-        {
+        /*{
           leftIcon: RcIconSettingsAboutFollowUs,
           content: t('page.dashboard.settings.followUs'),
           // onClick: () => {},
@@ -1116,7 +1117,7 @@ const SettingsInner = ({
               </a>
             </>
           ),
-        },
+        },*/
       ] as SettingItem[],
     },
   };
@@ -1207,9 +1208,9 @@ const SettingsInner = ({
           <img
             className="inline-block cursor-pointer"
             src={LogoRabby}
-            alt="https://rabby.io"
+            alt="https://forgingblock.io/"
             onClick={() => {
-              openInTab('https://rabby.io', false);
+              openInTab('https://forgingblock.io/', false);
             }}
           />
         </div>

@@ -316,7 +316,7 @@ const AddressWrapper = styled.div`
       color: var(--r-neutral-foot, #6a7587);
     }
     &:hover {
-      border-color: var(--r-blue-default, #7084ff);
+      border-color: var(--r-blue-default, #59e4ce);
       background-color: var(--r-blue-light1, #eef1ff);
     }
   }

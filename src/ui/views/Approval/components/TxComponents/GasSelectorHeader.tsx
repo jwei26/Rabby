@@ -132,19 +132,19 @@ const CardBody = styled.div<{
             cursor: pointer;
 
             &:hover {
-              border: 1px solid var(--r-blue-default, #7084ff);
+              border: 1px solid var(--r-blue-default, #59e4ce);
             }
 
             &.active {
               background: var(--r-blue-light-1, #eef1ff);
-              border: 1px solid var(--r-blue-default, #7084ff);
+              border: 1px solid var(--r-blue-default, #59e4ce);
               box-shadow: none;
             }
           }
 
           .cardTitle {
             &.active {
-              color: var(--r-blue-default, #7084ff) !important;
+              color: var(--r-blue-default, #59e4ce) !important;
             }
           }
         `}
@@ -201,7 +201,7 @@ const CardBody = styled.div<{
       padding-top: 0;
       transition: none;
       &.active {
-        color: var(--r-blue-default, #7084ff) !important;
+        color: var(--r-blue-default, #59e4ce) !important;
       }
     }
     .ant-input:focus,

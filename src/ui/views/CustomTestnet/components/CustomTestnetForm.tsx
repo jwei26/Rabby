@@ -30,7 +30,7 @@ const Wraper = styled.div`
 
     &:focus,
     &:hover {
-      border-color: var(--r-blue-default, #7084ff);
+      border-color: var(--r-blue-default, #59e4ce);
     }
   }
   .ant-input[disabled] {

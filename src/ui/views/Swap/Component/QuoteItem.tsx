@@ -48,7 +48,7 @@ const ItemWrapper = styled.div`
       position: absolute;
       content: '';
       inset: calc(0px - var(--quote--border-width));
-      border: var(--quote--border-width) solid var(--r-blue-default, #7084ff);
+      border: var(--quote--border-width) solid var(--r-blue-default, #59e4ce);
       background: transparent;
       border-radius: 6px;
       z-index: 2;

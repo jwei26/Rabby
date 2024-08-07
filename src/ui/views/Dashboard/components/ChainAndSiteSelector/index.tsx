@@ -249,16 +249,16 @@ export default ({
       badge: approvalRiskAlert,
       badgeAlert: approvalRiskAlert > 0,
     } as IPanelItem,
-    feedback: {
-      icon: claimable
-        ? RcIconClaimableRabbyPoints
-        : RcIconUnclaimableRabbyPoints,
-      eventKey: 'Rabby Points',
-      content: t('page.dashboard.home.panel.rabbyPoints'),
-      onClick: () => {
-        history.push('/rabby-points');
-      },
-    } as IPanelItem,
+    // feedback: {
+    //   icon: claimable
+    //     ? RcIconClaimableRabbyPoints
+    //     : RcIconUnclaimableRabbyPoints,
+    //   eventKey: 'Rabby Points',
+    //   content: t('page.dashboard.home.panel.rabbyPoints'),
+    //   onClick: () => {
+    //     history.push('/rabby-points');
+    //   },
+    // } as IPanelItem,
     more: {
       icon: RcIconMoreSettings,
       eventKey: 'More',
@@ -281,14 +281,14 @@ export default ({
         history.push('/nft');
       },
     } as IPanelItem,
-    ecology: {
-      icon: RcIconEco,
-      eventKey: 'Ecology',
-      content: t('page.dashboard.home.panel.ecology'),
-      onClick: () => {
-        setIsShowEcologyModal(true);
-      },
-    } as IPanelItem,
+    // ecology: {
+    //   icon: RcIconEco,
+    //   eventKey: 'Ecology',
+    //   content: t('page.dashboard.home.panel.ecology'),
+    //   onClick: () => {
+    //     setIsShowEcologyModal(true);
+    //   },
+    // } as IPanelItem,
   };
 
   let pickedPanelKeys: (keyof typeof panelItems)[] = [];
@@ -301,9 +301,9 @@ export default ({
       'nft',
       // 'queue',
       'transactions',
-      'feedback',
+      //'feedback',
       'security',
-      'ecology',
+      //'ecology',
       'more',
     ];
   } else {
@@ -313,9 +313,9 @@ export default ({
       'receive',
       'nft',
       'transactions',
-      'feedback',
+      //'feedback',
       'security',
-      'ecology',
+      //'ecology',
       'more',
     ];
   }

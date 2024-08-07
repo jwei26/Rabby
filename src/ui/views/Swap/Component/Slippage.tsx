@@ -34,7 +34,7 @@ export const SlippageItem = styled.div`
   &:hover,
   &.active {
     background: var(--r-blue-light1, #eef1ff);
-    border-color: var(--r-blue-default, #7084ff);
+    border-color: var(--r-blue-default, #59e4ce);
   }
 `;
 
